@@ -46,7 +46,7 @@ const customPayloadOption = {
         return {
             title,  // required - title of page
             blocks, // required - containers on page in correct order (as marked by [data-swup] attributes in DOM)
-            pageClass, // not requered - class of body element (but might be required by some plugin like Body Class plugin)
+            pageClass, // not required - class of body element (but might be required by some plugin like Body Class plugin)
             originalContent,    // not required - whole page html content (but might be required by some plugin) 
         };
     }
